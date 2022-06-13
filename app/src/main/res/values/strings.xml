@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KarakiaApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="disclaimer">"         The Karakia App is a Prototype version for Wintec Staff and Students. It is intended that staff and students shall use this to get an understanding of giving Karakia and information related to karakia. Karakia for Wintec - Te Pukenga may change accordingly making older versions redundant. Wintec – Te Pukenga takes no responsibility of outdated information displayed on the app."</string>
+</resources>

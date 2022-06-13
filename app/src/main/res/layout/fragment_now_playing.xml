@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nowplayinglayout"
+    tools:context=".ui.nowplaying.NowPlayingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_menu_camera" />
+
+            <TextView
+                android:id="@+id/text_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/image_view"
+                android:text="Line 1"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_dec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_header"
+                android:layout_toEndOf="@id/image_view"
+                android:text="Line 2" />
+
+            <TextView
+                android:id="@+id/text_duration"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_dec"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginRight="4dp"
+                android:layout_toEndOf="@id/image_view"
+                android:text="Line 3"
+                android:textColor="@color/purple_700"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/l1_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_dialog"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/back_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_selector"
+                android:src="@drawable/ic_back" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/play_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_selector"
+                android:src="@drawable/ic_play" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/stop_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_selector"
+                 android:src="@drawable/ic_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/next_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_selector"
+                android:src="@drawable/ic_next" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:padding="0dp">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/details_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_dialog"
+                android:src="@drawable/ic_arrow_up" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
