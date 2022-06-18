@@ -10,15 +10,11 @@ import com.example.karakiaapp.R
 import com.example.karakiaapp.data.KarakiaItem
 import com.example.karakiaapp.data.KarakiaItemAdapter
 import com.example.karakiaapp.data.StaticValue
-import com.example.karakiaapp.databinding.FragmentHomeBinding
 import kotlinx.android.synthetic.main.fragment_home.*
 
 
 class HomeFragment : Fragment() {
-    private var _binding: FragmentHomeBinding? = null
     private val exampleList = generateDummyList(5)
-    private val binding get() = _binding!!
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -53,7 +49,9 @@ class HomeFragment : Fragment() {
                 "Karakia Timatanga",
                 "Opening",
                 R.drawable.image1,
-                "Description 1",
+                "        Play this Karakia Timatanga (Opening Prayer) before beginning a meeting. " +
+                        "Karakia are Māori incantations or Māori prayers that are used to invoke spiritual guidance and protection, " +
+                        "pay honour to those who came before us, and to bless the space.",
                 "Tōia mai ngā tauira\n" +
                         "Tōia mai ngā kaimahi\n" +
                         "Tōia mai ngā tāngata nō ngā hau e whā\n" +
@@ -70,16 +68,20 @@ class HomeFragment : Fragment() {
                         "love and peace\n" +
                         "Let us remain steadfast to these words",
                 R.raw.karakia1,
-                "0.22"
+                "00:22"
             )
         )
         karakiStringList.add(
             KarakiaItem(
                 2,
                 "Karakia Timatanga",
-                "Opening 2",
+                "Opening",
                 R.drawable.image2,
-                "Description 2",
+                "    This karakia was first published in \"Maori Mementos,\" by Charles Davis in 1855. The great " +
+                        "natural forces can harm us, but when we act in harmony with them, we are rewarded with warmth " +
+                        "and calm, both literally and spiritually. " +
+                        "In 2005 Takirau Hohua (Tainui) turned this into a waiata that is now often sung in schools at the " +
+                        "beginning of the day's work.",
                 "Whakataka te hau ki te uru,\n" +
                         "Whakataka te hau ki te tonga.\n" +
                         "Kia makinakina ki uta,\n" +
@@ -95,7 +97,7 @@ class HomeFragment : Fragment() {
                         "on ice, on snow, on frost.\n" +
                         "Join! Gather! Intertwine!",
                 R.raw.karakia1,
-                "0.24"
+                "00:24"
             )
         )
         karakiStringList.add(
@@ -104,7 +106,13 @@ class HomeFragment : Fragment() {
                 "Karakia ki te kai",
                 "Blessing for food",
                 R.drawable.image3,
-                "Description 3",
+                "       Allows you to give thanks and be grateful for the bountiful and delicious kai that has been " +
+                        "prepared for you. " +
+                        "This karakia can be seen on the wall in the whare kai~ dining room at Ngāti Moki. It is a commonly " +
+                        "used simple karakia which will often be said before kai at Ngāti Moki when children visit. However " +
+                        "other karakia for kai will also be used by whānau at the marae. The tangata whenua usually perform " +
+                        "karakia, but will defer to an eminent visitor i.e. leader of the visiting rōpū, church or fluent speaker " +
+                        "of Māori.",
                 "E te Atua\n" +
                         "Whakapainga ēnei kai\n" +
                         "Hei oranga mō ō mātou tinana\n" +
@@ -122,7 +130,7 @@ class HomeFragment : Fragment() {
                         "For ever and ever\n" +
                         "Amen\n",
                 R.raw.karakia1,
-                "0.27"
+                "00:27"
             )
         )
         karakiStringList.add(
@@ -131,30 +139,35 @@ class HomeFragment : Fragment() {
                 "Karakia Whakamutunga",
                 "Closing",
                 R.drawable.image4,
-                "Description 4",
-                "Kia tau ki ā tātou katoa\n" +
-                        "Te atawhai o tō tātou Ariki ā Ihu Karaiti\n" +
-                        "Me te aroha o te Atua\n" +
-                        "Me te whiwhinga tahitanga\n" +
-                        "Ki te Wairua Tapu\n" +
-                        "Āke, ake, ake\n" +
-                        "Āmine\n",
+                "     This is a well-known karakia and Christian blessing. It is used to close a meeting and prior " +
+                        "to returning home: Noho wānanga, Camp, Noho marae, BOT meeting, Competitions or festivals.",
+                "Kia tau ki ā tātou katoa " +
+                        "Te atawhai o tō tātou Ariki ā Ihu Karaiti " +
+                        "Me te aroha o te Atua " +
+                        "Me te whiwhinga tahitanga " +
+                        "Ki te Wairua Tapu " +
+                        "Āke, ake, ake " +
+                        "Āmine ",
                 "May the grace of the Lord Jesus Christ\n" +
                         "And the love of God and the fellowship\n" +
                         "of the Holy Spirit Be with you all\n" +
                         "forever and ever,\n" +
                         "Amen",
                 R.raw.karakia1,
-                "0.22"
+                "00:22"
             )
         )
         karakiStringList.add(
             KarakiaItem(
                 5,
                 "Karakia Whakamutunga",
-                "Closing 2",
+                "Closing",
                 R.drawable.image5,
-                "Description 5",
+                "     He Hōnore is a karakia (prayer) derived from the Gospel of Luke in the Bible. " +
+                        "In 1992 Ranui Ngarimu made use of a version of this karakia that was used by the Maori language " +
+                        "teaching organisation Te Ataarangi Inc as an opening prayer for their students. She arranged the " +
+                        "leading words of the karakia so they could be sung to a tune composed by her son Taina Piripi " +
+                        "Ngarimu.",
                 "He hōnore, he korōria\n" +
                         "Maungārongo ki te whenua.\n" +
                         "Whakaaro pai e\n" +
@@ -168,7 +181,7 @@ class HomeFragment : Fragment() {
                         "for ever and ever.\n" +
                         "Amen.",
                 R.raw.karakia1,
-                "0.16"
+                "00:16"
             )
         )
         return karakiStringList
@@ -176,6 +189,5 @@ class HomeFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        _binding = null
-    }
+     }
 }

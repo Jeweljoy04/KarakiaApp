@@ -12,15 +12,17 @@
 
         <ImageView
             android:id="@+id/image_view"
-            android:layout_width="100dp"
+            android:layout_width="120dp"
             android:layout_height="100dp"
             android:layout_marginEnd="8dp"
+            android:scaleType="fitXY"
             android:src="@drawable/ic_menu_camera" />
 
         <TextView
             android:id="@+id/text_view_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/calibri"
             android:layout_toEndOf="@id/image_view"
             android:text="Line 1"
             android:textColor="@color/black"
@@ -29,6 +31,7 @@
 
         <TextView
             android:id="@+id/text_view_2"
+            android:fontFamily="@font/calibri"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_1"
@@ -37,19 +40,15 @@
 
         <TextView
             android:id="@+id/text_view_3"
-            android:layout_width="61dp"
+            android:fontFamily="@font/calibri"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_2"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginStart="221dp"
-            android:layout_marginTop="31dp"
-            android:layout_marginRight="26dp"
             android:layout_toEndOf="@id/image_view"
-            android:text="Line 3"
             android:textColor="@color/purple_700"
-            android:textSize="12dp" />
-
+            android:paddingTop="5dp"
+            android:text="Line 3"
+            android:textSize="11sp"/>
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

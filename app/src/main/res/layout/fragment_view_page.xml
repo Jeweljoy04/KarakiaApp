@@ -7,7 +7,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="18sp"
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:fontFamily="@font/calibri"
         android:text="0"
-        android:gravity="center"/>
+        android:gravity="center_horizontal"/>
 
 </LinearLayout>

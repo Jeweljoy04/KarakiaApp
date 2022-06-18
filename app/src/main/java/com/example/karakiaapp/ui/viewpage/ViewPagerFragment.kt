@@ -32,6 +32,7 @@ class ViewPagerFragment( exampleList: ArrayList<KarakiaItem>): Fragment() {
             3 -> currentItem.inEnglish
             else -> currentItem.description
         }
+
         textDescription.text = description
         return root
     }

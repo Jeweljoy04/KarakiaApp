@@ -15,7 +15,6 @@ import androidx.viewpager2.widget.ViewPager2
 import com.example.karakiaapp.R
 import com.example.karakiaapp.data.KarakiaItem
 import com.example.karakiaapp.data.KarakiaItemAdapter
-import com.example.karakiaapp.databinding.FragmentHomeBinding
 import com.example.karakiaapp.ui.ViewPagerAdapter
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
@@ -76,7 +75,7 @@ class DetailsFragment : Fragment(){
         viewPager.adapter = viewPagerAdapter
 
         //Tab header setting
-        var tabTile = arrayOf("Description","Maori","English")
+        var tabTile = arrayOf("Description","Māori","English")
         val tabLayout = view.findViewById<TabLayout>(R.id.tab_layout)
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             tab.text = tabTile[position]

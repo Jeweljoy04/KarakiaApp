@@ -13,6 +13,7 @@
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/drawable/ic_stop.xml" value="0.1245" />
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/drawable/shape_dialog_button.xml" value="0.3675" />
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.2665" />
+        <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/font/test.xml" value="0.30648148148148147" />
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.32575757575757575" />
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
@@ -23,7 +24,7 @@
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/fragment_details.xml" value="0.2587827808015834" />
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/fragment_gallery.xml" value="0.36102564102564105" />
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
-        <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/fragment_now_playing.xml" value="0.24814814814814815" />
+        <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/fragment_now_playing.xml" value="0.30185185185185187" />
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.36666666666666664" />
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/fragment_view_page.xml" value="0.36666666666666664" />
         <entry key="..\:/Wintec/Course/Sem1/COMP7092022-01 Mobile Applications Development/Assessment/C2/KarakiaApp/app/src/main/res/layout/home_template.xml" value="0.36102564102564105" />

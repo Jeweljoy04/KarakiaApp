@@ -22,12 +22,14 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_gravity="bottom"
+        android:fontFamily="@font/calibri"
         app:tabRippleColor="@android:color/holo_orange_light"
         app:tabGravity="center"/>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/pagerMain"
         android:layout_width="match_parent"
+        android:fontFamily="@font/calibri"
         android:layout_height="match_parent"/>
 
 </LinearLayout>
