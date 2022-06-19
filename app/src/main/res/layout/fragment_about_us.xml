@@ -323,7 +323,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/calibri"
-                                    android:text="Felix Angelo Banaga"
+                                    android:text="Felix Banaga"
                                     android:textColor="#FFFFFF"
                                     android:textSize="14sp"
                                     android:textStyle="bold" />
